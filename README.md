@@ -1,4 +1,4 @@
-
+<img src="hearing_court.png?raw=true"/>
 
 ## Forecasting the Defendant Failure to Appear rate and the Time to Disposition of a case
 
