@@ -1,6 +1,6 @@
 <img src="hearing_court.png?raw=true"/>
 
-## Forecasting the Defendant Failure to Appear rate and the Time to Disposition of a case
+## Forecasting the Defendant Failure to Appear rate and the Time to Disposition of a case:
 
 This is a team project that research on Failure to Appear rate of defendants and time to disposition of a case in a hearing court.    
 Due to privacy, the original dataset and code are not allowed to be share. 
