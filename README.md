@@ -20,7 +20,7 @@ The data used in this project contain 6 CSV files, 1.5 million rows and over 30 
 - Constructed a correlation matrix to eliminate multicollinearity.
 - Applied the ANOVA test and Holdout Method to came up with potential independent variables for model building.  
 3. Modeling: 
-- Developed statistical models (logistic regression) as a benchmark for machine learning models (decision tree, SVN, KNN, and neural network).  
+- Developed statistical models ( logistic regression) as a benchmark for machine learning models (decision tree, SVN, KNN, and neural network).  
 - Variable selected in the Logistic Regression model are used as a guideline for variables in other models.
 - Perform trimming techniques on machine learning models to obtain the optimal confusion matrixes. 
 
