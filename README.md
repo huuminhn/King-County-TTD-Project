@@ -8,7 +8,7 @@ Due to privacy, the original dataset and code are not allowed to be shared.
 ---
 #### The background of the project:
 Before a case is presented in front of a court, a hearing would be scheduled to justify the legitimation of the case, whether the defendant has admissibility of evidence or dismiss the case without further trials. However, for various reasons, many defendants failed to appear for the hearing. This project aims to analyze factors that potentially impact the probability of failure to appear of defendants, along with exploration of the time-to-disposition of hearing cases.  
-The data used in this project contain 6 CSV files, 1.5 million rows and over 30 variables collected from King County Prosecuting Attorney Office.  
+The data used in this project contains 6 CSV files, 1.5 million rows and over 30 variables collected from King County Prosecuting Attorney Office.  
 
 #### Data cleaning, EDA and modeling: 
 1. Data cleaning:
