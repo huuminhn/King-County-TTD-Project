@@ -16,7 +16,7 @@ The data used in this project contains 6 CSV files, 1.5 million rows and over 30
 - Outter join various CSV files together to form a single CSV file for the whole team to work on with efficiency.  
 - Fixed cells with multiple data by re-categorizing.  
 - Fill in emty cell (Null) with data aggregated from other CSV files.  
-2. EDA: 
+2.  EDA: 
 - Constructed a correlation matrix to eliminate multicollinearity.
 - Applied the ANOVA test and Holdout Method to came up with potential independent variables for model building.  
 3. Modeling: 
