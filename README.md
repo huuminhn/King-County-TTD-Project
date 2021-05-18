@@ -11,7 +11,7 @@ Before a case is presented in front of a court, a hearing would be scheduled to 
 The data used in this project contains 6 CSV files, 1.5 million rows and over 30 variables collected from the King County Prosecuting Attorney Office.  
 
 #### Data cleaning, EDA and modeling: 
-1. Data cleaning:
+1.  Data cleaning:
 - Cleaned, merged, manipulated, and aggregated data  via Pandas and Numpy.  
 - Outter join various CSV files together to form a single CSV file for the whole team to work on with efficiency.  
 - Fixed cells with multiple data by re-categorizing.  
