@@ -1,16 +1,18 @@
 <img src="hearing_court.png?raw=true"/>
 
-## Forecasting the Defendant Failure to Appear rate and the Time to Disposition of a case:
+# Forecasting the Defendant Failure to Appear rate and the Time to Disposition of a case:
 
 This is a team project that research on Failure to Appear rate of defendants and time to disposition of a case in a hearing court.    
 Due to privacy, the original dataset and some part of the codes are not allowed to be shared. 
 
 ---
-#### The background of the project:
+## The background of the project:
 Before a case is presented in front of a court, a hearing would be scheduled to justify the legitimation of the case, whether the defendant has admissibility of evidence or dismiss the case without further trials. However, for various reasons, many defendants failed to appear for the hearing. This project aims to analyze factors that potentially impact the probability of failure to appear of defendants, along with exploration of the time-to-disposition of hearing cases.  
 The data used in this project contains 6 CSV files, 1.5 million rows and over 30 variables collected from the King County Prosecuting Attorney Office.  
 
-#### Data cleaning, EDA and modeling: 
+---
+
+## 1. Data Cleaning:  
 1.  Data cleaning:
 - Cleaned, merged, manipulated, and aggregated data  via Pandas and Numpy.  
 - Outter join various CSV files together to form a single CSV file for the whole team to work on with efficiency.  
