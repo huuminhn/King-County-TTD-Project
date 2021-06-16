@@ -18,7 +18,8 @@ The data used in this project contains 6 CSV files, 1.5 million rows and over 30
 - Future Engineering **6 CSV files** together to form a single CSV file for the whole team to work on with efficiency.  
 - Fill in emty cell (Null) with data aggregated from other CSV files.  
 - Fixed cells with multiple data by re-categorizing based on the impact and colinearity of a independent variable upon the dependent variable. We firstly calculate the DFA rate, then group the select x variable with the y variable and the DFA to see if that x variable is important for analyzation or not. Some example charts for this process are:  
-<img src="dummies.png?raw=true"/>
+<img src="dummies.png?raw=true"/>  
+Those two charts on the right hand side indicate that Police Agencies, Charge Class and Seriousness are valuable for model building, whereas the other chart illustrates the insignificant of the Custody Status variable. Even though the differences of DFA rate among these four custody statuses are significant, the rate is still very low compared to the average rate, which is 44.19%. Thus, we excluded Custody Status as a predictor for DFA.  
 
 2.  EDA: 
 - Constructed a correlation matrix to eliminate multicollinearity.
