@@ -39,6 +39,11 @@ Those two charts on the right hand side indicate that Police Agencies, Charge Cl
 **b. Decision Tree:**  
 - Decision Tree is one of the supervised machine learning algorithms and classification techniques to induce a decision tree from training data. A decision tree is a predictive model mapping observation about an item to conclude about its target value (Robert Nisbet, Gary Miner, John Elder, 2018).    
 - Firstly, we applied some pre-prunning techniques to select the best parameters for the decision tree. The method can be illustrated as below:  
+<img src="tree_prun.png?raw=true"/>  
+
+- Based on the result of the graphs, we set max_depth = 13 for better interpretation, min_sample_leaf at 1000 (for the tree to expand more freely compared to that at 2000), and min_sample_split = 3000. As a result, here is our Decision Tree:  
+<img src="tree.png?raw=true"/>  
+
 
 #### Solution:   
 - The EDA step increased the performance of model by 38%.    
