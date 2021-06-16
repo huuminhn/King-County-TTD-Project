@@ -24,9 +24,9 @@ import graphviz #optional –needed to render a tree model into graph
 # In[2]:
 
 
-DFA_train = pd.read_excel(r'/Users/evanko/Documents/Seattle University/BUAN 5510/Logistic Regression/DFAtrain_update.xlsx')
+DFA_train = pd.read_excel(r'/DFAtrain_update.xlsx')
 
-DFA_test = pd.read_excel(r'/Users/evanko/Documents/Seattle University/BUAN 5510/Logistic Regression/DFA_Test_2.xlsx')
+DFA_test = pd.read_excel(r'DFA_Test_2.xlsx')
 
 DFA_test['Violent Level'] = np.where(DFA_test['Violent'] == 0, 'Non-violent Charge', 'Violent Charge')
 
@@ -341,7 +341,7 @@ print ("Recall: "+ str( round(metrics.recall_score(y_testDFA3,y_predDFA3)*100,2)
 # In[43]:
 
 
-tree.export_graphviz(clf, out_file=r'/Users/evanko/Documents/Seattle University/BUAN 5510/Logistic Regression/Dtree.dot', feature_names=X_trainDFA2.columns, class_names = True)
+tree.export_graphviz(clf, out_file=r'/Dtree.dot', feature_names=X_trainDFA2.columns, class_names = True)
 
 
 # In[41]:
