@@ -13,11 +13,13 @@ The data used in this project contains 6 CSV files, 1.5 million rows and over 30
 ---
 
 ## 1. Data Cleaning:  
-1.  Data cleaning:
+
 - Cleaned, merged, manipulated, and aggregated data  via Pandas and Numpy.  
-- Outter join various CSV files together to form a single CSV file for the whole team to work on with efficiency.  
-- Fixed cells with multiple data by re-categorizing.  
+- Future Engineering **6 CSV files** together to form a single CSV file for the whole team to work on with efficiency.  
 - Fill in emty cell (Null) with data aggregated from other CSV files.  
+- Fixed cells with multiple data by re-categorizing based on the impact and colinearity of a independent variable upon the dependent variable. We firstly calculate the DFA rate, then group the select x variable with the y variable and the DFA to see if that x variable is important for analyzation or not. Some example charts for this process are:  
+<img src="dummies.png?raw=true"/>
+
 2.  EDA: 
 - Constructed a correlation matrix to eliminate multicollinearity.
 - Applied the ANOVA test and Holdout Method to came up with potential independent variables for model building.  
