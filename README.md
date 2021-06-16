@@ -44,6 +44,14 @@ Those two charts on the right hand side indicate that Police Agencies, Charge Cl
 - Based on the result of the graphs, we set max_depth = 13 for better interpretation, min_sample_leaf at 1000 (for the tree to expand more freely compared to that at 2000), and min_sample_split = 3000. As a result, here is our Decision Tree:  
 <img src="tree.png?raw=true"/>  
 
+**c. SVM, KNN and Neutral Network:**  
+
+- **SVM**: We use significant variables from the Logistic Regression and Decision Tree models, then we test models with 3 kernels: Radial Basis Function (RBF), Linear, and Polynomial (degree = 3), then choose the one with the best result, which turn out to be the RBF kernel.  
+- **KNN**: We applied pre-prunning technique to find the optimal K points, with variables suggestion coming from the previous 2 benchmark models.  
+<img src="KNN.png?raw=true"/>  
+- **Neutral Network**: Using the same chart plotting technique to observe the impact of parameters upon the model, we applied pre-prunning technique to come up with the best model.  
+**d. Model Comparision:**  
+
 
 #### Solution:   
 - The EDA step increased the performance of model by 38%.    
