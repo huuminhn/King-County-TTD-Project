@@ -18,6 +18,7 @@ The data used in this project contains 6 CSV files, 1.5 million rows and over 30
 - Future Engineering **6 CSV files** together to form a single CSV file for the whole team to work on with efficiency.  
 - Fill in emty cell (Null) with data aggregated from other CSV files.  
 - Fixed cells with multiple data by creating bins and spliting original variables to dummies variables.  
+-   
 ## 2. EDA:  
 
 - We process to explore the significant variables based on the impact and colinearity of a independent variable upon the dependent variable. We firstly calculate the DFA rate, then group the select x variable with the y variable and the DFA to see if that x variable is important for analyzation or not. Some example charts for this process are:  
@@ -27,11 +28,17 @@ Those two charts on the right hand side indicate that Police Agencies, Charge Cl
 - Constructed a correlation matrix to eliminate multicollinearity.  
 <img src="corr.png?raw=true"/>  
 
-- Applied the ANOVA test and Holdout Method to came up with potential independent variables for model building.  
-4.  Modeling: 
-- Developed statistical models ( logistic regression) as a benchmark for machine learning models (decision tree, SVN, KNN, and neural network).  
-- Variable selected in the Logistic Regression model are used as a guideline for variables in other models.
-- Perform trimming techniques on machine learning models to obtain the optimal confusion matrixes. 
+- Applied the **ANOVA test and Holdout Method** to came up with potential independent variables for model building.  
+  
+## 3. Modeling (Logistic Regression, Decision Tree, SVM, KNN, Neutral Network):  
+**a. Logistic Regression:**  
+- Developed statistical models ( logistic regression) as a benchmark for machine learning models.   
+- Variable selected in the Logistic Regression model are used as a guideline for variables in other models.The model can be summarized as below:  
+<img src="logistic.png?raw=true"/>  
+
+**b. Decision Tree:**  
+- Decision Tree is one of the supervised machine learning algorithms and classification techniques to induce a decision tree from training data. A decision tree is a predictive model mapping observation about an item to conclude about its target value (Robert Nisbet, Gary Miner, John Elder, 2018).    
+- Firstly, we applied some pre-prunning techniques to select the best parameters for the decision tree. The method can be illustrated as below:  
 
 #### Solution:   
 - The EDA step increased the performance of model by 38%.    
