@@ -52,12 +52,16 @@ Those two charts on the right hand side indicate that Police Agencies, Charge Cl
 
 - **Neutral Network**: Using the same chart plotting technique to observe the impact of parameters upon the model, we applied pre-prunning technique to come up with the best model.   
    
-**d. Model Comparision:**  
+## 4. Model Comparision:  
+<img src="matrix.png?raw=true"/>  
+- The list of significant variables for  are: 'Seriousness', 'VUCSA', 'Domestic violence', 'Car Theft Initiative', 'Gun case', 'AdultFelony','AgeGroup_40-49', 'AgeGroup_50-59', 'AgeGroup_60+','AgeGroup_<19','Gender_Male','Police_Dummies_Agent2','Police_Dummies_Agent3','Police_Dummies_Agent4','Police_Dummies_Agent5',Police_Dummies_Agent6','Police_Dummies_Others','Highest Class_C', 'Highest Class_M', 'Violent Level_Violent Charge', 'Previous DFA_1', 'hearingsDummies_1', 'settingDummies_1', 'Old Record_1', 'intercept'.  
+- Removing any of the variables lowered the performance of the model. This indicates that all the variables are significant to generating the output.  
+- The accuracy of the NN model is the highest out of the other at 68%. The precision of 63.2% is second highest only lower than the logistic regression. The recall of 63.4% is also second highest only lower than the KNN.  
+- Overall, the Neural Network had the highest performance across the 3 metrics and thus is the best at modeling the Failure to Appear.
 
-
-#### Solution:   
+## 5. Overal Results:     
 - The EDA step increased the performance of model by 38%.    
 - The accuracy rate of prediction is up to 68% (with the highest belong to the Neutral Network model).  
 - The precision of prediction is up to 65% ( with the highest belong to the Linear Regression Model).
 - The sensitivity of prediction is up to 66% ( with the highest belong to the KNN Model). 
-- The team’s research paper was later on submitted to the King County Prosecuting Attorney Office and being considered as a background for public policies adjustments. 
+- **The team’s research paper was later on submitted to the King County Prosecuting Attorney Office and being considered as a background for public policies adjustments.** 
