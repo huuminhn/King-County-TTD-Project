@@ -50,7 +50,8 @@ Those two charts on the right hand side indicate that Police Agencies, Charge Cl
 - **KNN**: We applied pre-prunning technique to find the optimal K points, with variables suggestion coming from the previous 2 benchmark models.  
 <img src="KNN.png?raw=true"/>  
 
-- **Neutral Network**: Using the same chart plotting technique to observe the impact of parameters upon the model, we applied pre-prunning technique to come up with the best model.    
+- **Neutral Network**: Using the same chart plotting technique to observe the impact of parameters upon the model, we applied pre-prunning technique to come up with the best model.   
+   
 **d. Model Comparision:**  
 
 
