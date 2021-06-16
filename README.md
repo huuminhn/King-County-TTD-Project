@@ -49,7 +49,8 @@ Those two charts on the right hand side indicate that Police Agencies, Charge Cl
 - **SVM**: We use significant variables from the Logistic Regression and Decision Tree models, then we test models with 3 kernels: Radial Basis Function (RBF), Linear, and Polynomial (degree = 3), then choose the one with the best result, which turn out to be the RBF kernel.  
 - **KNN**: We applied pre-prunning technique to find the optimal K points, with variables suggestion coming from the previous 2 benchmark models.  
 <img src="KNN.png?raw=true"/>  
-- **Neutral Network**: Using the same chart plotting technique to observe the impact of parameters upon the model, we applied pre-prunning technique to come up with the best model.  
+
+- **Neutral Network**: Using the same chart plotting technique to observe the impact of parameters upon the model, we applied pre-prunning technique to come up with the best model.    
 **d. Model Comparision:**  
 
 
