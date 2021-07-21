@@ -2,7 +2,7 @@
 
 # Forecasting the Defendant Failure to Appear rate and the Time to Disposition of a case:
 
-This is  team project that research on Failure to Appear rate of defendants and time to disposition of a case in a hearing court.    
+This is a team project that research on Failure to Appear rate of defendants and time to disposition of a case in a hearing court.    
 Due to privacy, the original dataset and some part of the codes are not allowed to be shared. 
 
 ---
